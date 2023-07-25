@@ -16,3 +16,4 @@ Fortunately, downloading a GTK application on Windows is just as straightforward
 ```
 
 # Preview:
+![](https://im2.ezgif.com/tmp/ezgif-2-c300fc386a.gif)
