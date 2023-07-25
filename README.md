@@ -1,5 +1,5 @@
 # TicTacToe Remake (GTKMM3)
-A TicTacToe remake made using C++ and GTKmm3 (incomplete due to possible bugs)
+A TicTacToe remake made using C++ and GTKmm3 (currently incomplete due to possible bugs)
 
 While GTK is well known as a Linux graphical toolkit, this particular application only works on Windows, because I use Windows.
 
