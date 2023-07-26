@@ -8,7 +8,7 @@ Fortunately, downloading a GTK application on Windows is just as straightforward
 # How to download and play:
 
 ```
-1. Download the zip file located in releases and extract it.
+1. Download the zip file located in releases and extract it
 
 2. Inside the TicTacToe folder, go to: mingw64 --> bin --> game_tictactoe.exe
 
