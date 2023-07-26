@@ -115,7 +115,6 @@ void checkForWinner(int row, int col) {
   }
   if (grid[2][0].mark == checkMark && grid[1][1].mark == checkMark && grid[0][2].mark == checkMark) {
     endGame(checkMark, 8);
-    return;
   }
 }
 
