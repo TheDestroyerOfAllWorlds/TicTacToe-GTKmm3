@@ -1,0 +1,68 @@
+.appWindow {
+    background-color: rgb(255, 234, 209);
+}
+
+.gameButton {
+    background: rgb(255, 234, 209);
+    padding: 10px;
+    min-width: 100px;
+    min-height: 100px;
+    border: 10px solid rgb(32, 32, 32);
+    box-shadow: none;
+    
+    color: black;
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 75px;
+}
+
+.gameButton.animBtn {
+    animation: fadein 0.005s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }  
+}
+
+.restartButton {
+    background: rgb(32, 32, 32);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-color: rgb(32, 32, 32);
+
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.restartButton:hover {
+    background: rgba(255, 255, 255, 0.95);
+    color: rgb(32, 32, 32);
+}
+
+headerbar {
+    background: rgb(32, 32, 32);
+    border-top: 0.15px solid rgb(32, 32, 32);
+    border-bottom: 0.15px solid rgb(32, 32, 32);
+    color: white;
+}
+
+headerbar.titlebar {
+    color: white;
+    box-shadow: none;
+}
+
+headerbar button.titlebutton {
+    color: white;
+    box-shadow: none;
+}
+
+headerbar button.titlebutton.close:hover {
+    color: rgb(32, 32, 32);
+}
+
+headerbar button.titlebutton.minimize:hover {
+    color: rgb(32, 32, 32);
+}
