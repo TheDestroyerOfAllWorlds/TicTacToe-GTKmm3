@@ -12,7 +12,7 @@ Fortunately, downloading a GTK application on Windows is just as straightforward
 
 2. Inside the TicTacToe folder, go to: mingw64 --> bin --> game_tictactoe.exe
 
-3. That's pretty much it.
+That's pretty much it.
 ```
 
 # Preview:
