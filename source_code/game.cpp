@@ -117,15 +117,9 @@ void checkForWinner(int row, int col) {
     endGame(checkMark, 8);
     return;
   }
-
-  // check for tie
-  if (numOfMarks == pow(numOfSpacesPerRow, 2)) {
-    endGame(checkMark, 9);
-  }
 }
 
 void endGame(int checkMark, int typeOfWin) {
-  if (typeOfWin != 9) { // if it's a tie, there's no winning line
     // reset all buttons
     for(int i = 0; i < numOfSpacesPerRow; i++) {
       for(int j = 0; j < numOfSpacesPerRow; j++) {
@@ -139,7 +133,6 @@ void endGame(int checkMark, int typeOfWin) {
     } else {
       setLabels("O", typeOfWin);
     }
-  }
 }
 
 void setLabels(string mark, int typeOfWin) {
