@@ -93,7 +93,7 @@ void checkForWinner(int row, int col) {
   numOfMarks++;
 
   // check rows
-  for (int i = 0; i < 3; i++) {
+  for (int i = 0; i < numOfSpacesPerRow; i++) {
     if (grid[i][0].mark == checkMark && grid[i][1].mark == checkMark && grid[i][2].mark == checkMark) {
       endGame(checkMark, i + 1);
       return;
@@ -101,7 +101,7 @@ void checkForWinner(int row, int col) {
   }
 
   // check columns
-  for (int i = 0; i < 3; i++) {
+  for (int i = 0; i < numOfSpacesPerRow; i++) {
     if (grid[0][i].mark == checkMark && grid[1][i].mark == checkMark &&  grid[2][i].mark == checkMark) {
       endGame(checkMark, i + 4);
       return; 
